@@ -12,15 +12,6 @@ DBConnection();
 
 const PORT = process.env.PORT || 5000;
 
-/*
-// CORS setup: Allow requests from React (localhost:3000) in development
-const corsOptions = {
-    origin: process.env.NODE_ENV === 'production' ? '*' : 'http://localhost:5173',
-    methods: ['GET', 'POST', 'PUT', 'DELETE'],
-    allowedHeaders: ['Content-Type'],
-};
-app.use(cors(corsOptions));
-*/
 
 app.use(cors({
     origin: 'https://online-learning-platform-frontend-5jvn.onrender.com', // Frontend origin

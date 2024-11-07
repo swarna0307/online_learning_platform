@@ -115,7 +115,7 @@ const CourseContent = () => {
                               {section.S_description}
                               {section.S_content && (
                                  <>
-                                    <Button color='success' className='mx-2' variant="text" size="small" onClick={() => playVideo(`http://localhost:8000${section.S_content.path}`, index)}>
+                                    <Button color='success' className='mx-2' variant="text" size="small" onClick={() => playVideo(`http://localhost:5000${section.S_content.path}`, index)}>
                                        Play Video
                                     </Button>
                                     {isSectionCompleted && !completedSections.includes(index) && (
