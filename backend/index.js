@@ -23,7 +23,7 @@ app.use(cors(corsOptions));
 */
 
 app.use(cors({
-    origin: 'http://localhost:5173', // Frontend origin
+    origin: 'https://online-learning-platform-frontend-5jvn.onrender.com', // Frontend origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed methods
     allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
  }));
